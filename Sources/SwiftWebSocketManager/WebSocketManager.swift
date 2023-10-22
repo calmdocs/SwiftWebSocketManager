@@ -9,8 +9,10 @@ import Foundation
 import SwiftUI
 import SwiftProcessManager
 
+#if os(macOS)
+
 /// Connect to a websocket server using a WebSocketStream.
-@available(iOS 13, macOS 10.15, *)
+@available(macOS 10.15, *)
 public class WebSocketManager: ObservableObject {
     
     /// Base URL for each WebSocketStraem created by this manager.
@@ -299,6 +301,7 @@ public class WebSocketManager: ObservableObject {
     }
 }
     
+#endif
     
     
 

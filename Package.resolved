@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftprocessmanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/calmdocs/SwiftProcessManager",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b56b6e9b0cfdafa1d472521313cab3d4758384b4"
+      }
+    }
+  ],
+  "version" : 2
+}
